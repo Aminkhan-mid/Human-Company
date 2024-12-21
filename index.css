@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     font-family:  "Roboto", serif;
     background-color: #2D2D34;
-    width: 100%;
+    width: 105%;
 }
 header{
     background-color: lemonchiffon;
@@ -285,9 +285,6 @@ header nav .cart{
         display: flex;
         justify-content: center;
         margin: 10px;
-    }
-    .phoneNavs li a{
-        font-size: 1.4rem;
     }
     .navHolderDiv{
         display: none;
