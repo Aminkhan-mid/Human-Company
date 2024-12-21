@@ -286,6 +286,9 @@ header nav .cart{
         justify-content: center;
         margin: 10px;
     }
+    .phoneNavs li a{
+        font-size: 1.4rem;
+    }
     .navHolderDiv{
         display: none;
     }
