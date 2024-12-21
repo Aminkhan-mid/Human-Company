@@ -268,3 +268,14 @@ header nav .cart{
         margin-top: 10px;
     }
 }
+@media (max-width:412px) {
+    body{
+        background-color: red;
+    }
+    .navHolderDiv{
+        display: none;
+    }
+    .headerQuote{
+
+    }
+}
