@@ -274,10 +274,11 @@ header nav .cart{
 }
 @media (max-width:412px) {
     header {
+        width: fit-content;
         height: fit-content;
     }
     header h1{
-        width: 210px;
+        width: 150px;
     }
     .phoneNavs{
         display: flex;
@@ -286,6 +287,9 @@ header nav .cart{
     }
     .navHolderDiv{
         display: none;
+    }
+    header .headerQuote{
+        font-size: 1.4rem;
     }
 }
 
