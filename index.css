@@ -6,8 +6,6 @@ body{
     background-color: #2D2D34;
 }
 header{
-    display: flex;
-    justify-content: space-between;
     background-color: lemonchiffon;
     padding: 10px;
     height: 120px;
@@ -16,10 +14,13 @@ header .flexOne{
     display: flex;
     gap:20px;
 }
-
+header .wholething{
+    display: flex;
+    justify-content: space-between;
+}
 header img{
     width: 90px;
-    height: 200;
+    height: 100px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 15px;
@@ -64,6 +65,9 @@ header nav li .bkids{
 header nav .cart{
     background-color: #EE2E31;
     color: whitesmoke;
+}
+.phoneNavs{
+    display: none;
 }
 .flexTwo{
     display: flex;
@@ -269,13 +273,19 @@ header nav .cart{
     }
 }
 @media (max-width:412px) {
-    body{
-        background-color: red;
+    header {
+        height: fit-content;
+    }
+    header h1{
+        width: 210px;
+    }
+    .phoneNavs{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
     }
     .navHolderDiv{
         display: none;
     }
-    .headerQuote{
-
-    }
 }
+
