@@ -274,7 +274,7 @@ header nav .cart{
 }
 @media (max-width:412px) {
     header {
-        width: fit-content;
+        width: 100%;
         height: fit-content;
     }
     header h1{
