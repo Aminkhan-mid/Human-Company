@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family:  "Roboto", serif;
     background-color: #2D2D34;
+    width: 100%;
 }
 header{
     background-color: lemonchiffon;
