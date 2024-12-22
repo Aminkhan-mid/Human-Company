@@ -287,7 +287,9 @@ header nav .cart{
         justify-content: space-around;
         margin: 10px;
     }
-  
+    .phoneNavs nav li a{
+        font-size: 1.3rem;
+    }
     .wholething{
         width: 350px;
     }
