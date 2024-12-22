@@ -281,17 +281,17 @@ header nav .cart{
     }
     header h1{
         width: 190px;
-        border: 1px dotted;
     }
-    .phoneNavs{
+    .phoneNavs {
         display: flex;
-        justify-content: center;
         margin: 10px;
         border: 1px dotted navy;
+        width: fit-content;
     }
+  
     .wholething{
         border: 1px dotted;
-        padding-right: 70px;
+        width: 350px;
     }
     .navHolderDiv{
         display: none;
